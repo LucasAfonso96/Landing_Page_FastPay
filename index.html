@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+	<link href="http://fonts.googleapis.com/css?family=Didact+Gothic" rel="stylesheet" />
+	<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.3/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+</head>
+
+<body>
+	<div id="header-wrapper">
+		<div id="header" class="container">
+			<div id="logo">
+				<h1><a href="#">FastPay</a></h1>
+			</div>
+			<div id="menu">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"><a href="#" accesskey="1" title="" class="nav-link">Início</a></li>
+					<li class="nav-item"><a href="#fastpay" accesskey="2" title="" class="nav-link">Produto</a></li>
+					<li class="nav-item"><a href="#clients" accesskey="3" title="" class="nav-link">Nosso App</a></li>
+					<li class="nav-item"><a href="#about" accesskey="4" title="" class="nav-link">Designs</a></li>
+					<li class="nav-item"class="nav-link"><a href="#contact" accesskey="5" title=""class="nav-link">Contato</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<div id="banner-wrapper">
+			<div id="banner" class="container">
+				<div class="title">
+					<h2>Pague com FastPay</h2>
+					<span class="byline">A melhor solução para o pagamento sem contato</span>
+		</div>
+		<ul class="actions">
+			<li><a href="#" class="button">Baixar APP</a></li>
+		</ul>
+	</div>
+</div>
+</div>
+
+<section id="fastpay">
+  
+  <div id="coluna-esquerda-produto">
+    <h2>Vantagens do FastPay</h2>
+   
+    <figure  id="imgWrap">
+        <img class="pulseira" src="/img/pic01.png" alt="">
+        <figcaption class="span_pulseira">Ilustração do modelo da pulseira junto à sua caixa.</figcaption>
+    </figure>
+ 
+  </div>
+  
+  <div id="coluna-direita-produto">
+    <div id="menuGrid">
+
+      <span class="item1">
+        <h3>Proteja-se do COVID-19!</h3>
+        <p>Evite contato durante o pagamento e use nossa pulseira, com eles não é necessário ter contato com o atendente nem com a maquininha.</p>
+      </span>
+      <span class="item2">
+        <h3>Utilize o QR code</h3>
+        <p>Disponível na própria pulseira ou na tampa da caixa,ao escanear o QR code com seu celular, a pulseira é cadastrada automaticamente no aplicativo</p>
+      </span>
+      <span class="item3" >
+        <h3>Segurança em primeiro lugar!</h3>
+        <p>A pulseira FastPay é extremamente segura, voce pode estabelecer tempo para bloqueio, limite de gastos, além de poder cancelar a qualquer momento </p>
+      </span>
+        
+    </div>
+
+    
+  </div>
+</section>
+
+
+<section accesskey="2" id="clients">
+	<div id="three-column" class="container">
+
+    
+    
+		<div class="title">
+			<h2>Utillize o app de celular</h2>
+			<span class="byline">Aumente a praticidade dos seus pagamentos com segurança.</span>
+		</div>
+		<div class="boxA">
+      <img class="figma" src="./img/Figma1.png" alt="tela1_app">
+			<p>Baixe o aplicativo na Play Store ou App Store<br> e aproveite nossos benefícios.</p>
+		</div>
+		<div class="boxB">
+      <img class="figma" src="./img/Figma2.png" alt="tela2_app">
+			<p>Cadastre sua conta, formas de pagamento e configurações de segurança.</p>
+		</div>
+		<div class="boxC">
+      <img class="figma" src="./img/Figma3.png" alt="tela3_app">
+			<p> Escolha e autorize sua pulseira. Depois disso é só aproveitar os pagamentos sem contato..</p>
+		</div>
+    
+	</div>
+</section>
+
+<section accesskey="3" id="about">
+	<div id="three-column" class="container">
+    
+		<div class="title">
+			<h2>Design minimalista e ergonomico </h2>
+			<span class="byline">Ideal para qualquer ocasião</span>
+		</div>
+		<div class="boxA">
+      <img class="box" src="./img/Fast_Pay.png" alt="tela1_app">
+			<p>Para o seu dia-a-dia</p>
+		</div>
+    <div class="boxB">
+      <img class="box" src="./img/bar.jpg" alt="tela3_app">
+			<p> Para usar em bares</p>
+		</div>
+		<div class="boxC">
+      <img class="box" src="./img/rir.png" alt="pulseira_2">
+			<p>Para eventos</p>
+		</div>
+		
+	</div>
+</section>
+
+<section accesskey="5" class="container" id="contact">
+      <div class="title">
+        <h2>Fale conosco</h2>
+      </div>
+        <form id='form' action="action-page.js">
+            <label for="fname" >Nome Completo ou organização</label>
+            <input type="text" id="name" name="lastname" placeholder="Digite seu nome completo...">
+
+            <label for="contact-info">Informacoes de contato</label>
+            <select id="contact-options" name="options">
+            <option value="email">Email</option>
+            <option value="facebook">Facebook</option>
+            <option value="whatsapp">Whatsapp</option>
+            </select>
+
+            <label for="subject">Quer saber mais como funciona? Comece dizendo pra gente como essa pulseira te ajudaria. </label>
+            <textarea id="subject" name="subject" placeholder="Escreva sobre as pessoas e contatos que conhece..." style="height:200px"></textarea>
+
+            <input class="button" href="#" type="button" onclick="mensagem(document.getElementById('nome').value)"value="Enviar">
+        </form>
+    </section>
+<div id="copyright" class="container">
+	<p>&copy; Untitled. All rights reserved. | Photos by <a href="http://fotogrph.com/">Google </a> | Design by <a href="http://templated.co" rel="nofollow">Henrique, Ligiane, Lucas e Priscilla</a>.</p>
+</div>
+    <script src="script.js"></script>
+  </body>
+</html>
